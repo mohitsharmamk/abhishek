@@ -1,0 +1,57 @@
+.body
+{
+	background:url(image/background.jpg);
+	background-size: cover;
+
+}
+
+.menu
+{  
+    width: 80%;
+   color: white;
+   margin: 0px auto ;
+
+
+}
+.menu ul
+{
+	padding: 0px;
+}
+
+
+.menu ul li
+{
+	font-size: 18px;
+	float: left;
+	background-color: black;
+	width: 200px;
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	opacity: 0.8;
+}
+.menu ul li ul
+{
+	display: none;
+}
+.menu ul li:hover >ul
+{
+	display: block;
+}
+.menu ul li:hover
+{
+	background-color: #c70039;
+	opacity: 0.9;
+}
+
+.menu ul li ul li
+{
+	position: relative;
+}
+.menu ul li ul li ul
+{
+	position:absolute;
+	left: 200px;
+	top: 0px;
+}
